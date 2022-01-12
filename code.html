@@ -131,15 +131,15 @@ function displayNumbers(numbers) {
                     <p>The Code is structured in three function.</p>
                     <div>
                         <h5>function getValues()</h5>
-                    <p>This function retrieves the values from the HTML page. It then varifies that they are numbers and not arrays. Once confirmed, the numbers are then passed to the next function.</p>
+                        <p>This function retrieves the input values from the UI using custom ID tags. It then varifies that they are numbers and not strings. Once confirmed, the numbers are then passed to the next function. If a string has been enetred, it will produce an error message to the user.</p>
                     </div>
                     <div>
                         <h5>function generateNumbers()</h5>
-                    <p>This function runs a loop and places the numbers in an array. The array is then used in the following function.</p>
+                    <p>This function runs a loop to generate integers and places them in an array. The array is then pushed to the next function.</p>
                     </div>
                     <div>
                         <h5>function displayNumbers()</h5>
-                    <p>This function inputs the array into a table which is printed on the HTML page. The function also bolds all of the even numbers.</p>
+                    <p>The function bolds all of the even numbers by verifying if there are any remanders when divided by 2. The numbers with no remainders are then given a class that is styled by CSS to <strong>BOLD</strong> them. The table is then printed on the HTML page.</p>
                     </div>
                 </div>
             </div>
